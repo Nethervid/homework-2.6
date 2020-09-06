@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		ACA8740924F1107F00DF1CA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8740824F1107F00DF1CA4 /* AppDelegate.swift */; };
 		ACA8740B24F1107F00DF1CA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8740A24F1107F00DF1CA4 /* SceneDelegate.swift */; };
-		ACA8740D24F1107F00DF1CA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8740C24F1107F00DF1CA4 /* ViewController.swift */; };
+		ACA8740D24F1107F00DF1CA4 /* ColorChangerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8740C24F1107F00DF1CA4 /* ColorChangerViewController.swift */; };
 		ACA8741024F1107F00DF1CA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA8740E24F1107F00DF1CA4 /* Main.storyboard */; };
 		ACA8741224F1108000DF1CA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA8741124F1108000DF1CA4 /* Assets.xcassets */; };
 		ACA8741524F1108000DF1CA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA8741324F1108000DF1CA4 /* LaunchScreen.storyboard */; };
+		ACA8744225052ADC00DF1CA4 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8744125052ADC00DF1CA4 /* StartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ACA8740524F1107F00DF1CA4 /* homework 2.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "homework 2.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA8740824F1107F00DF1CA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACA8740A24F1107F00DF1CA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ACA8740C24F1107F00DF1CA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACA8740C24F1107F00DF1CA4 /* ColorChangerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangerViewController.swift; sourceTree = "<group>"; };
 		ACA8740F24F1107F00DF1CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACA8741124F1108000DF1CA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACA8741424F1108000DF1CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACA8741624F1108000DF1CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA8744125052ADC00DF1CA4 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				ACA8740824F1107F00DF1CA4 /* AppDelegate.swift */,
 				ACA8740A24F1107F00DF1CA4 /* SceneDelegate.swift */,
-				ACA8740C24F1107F00DF1CA4 /* ViewController.swift */,
+				ACA8740C24F1107F00DF1CA4 /* ColorChangerViewController.swift */,
 				ACA8740E24F1107F00DF1CA4 /* Main.storyboard */,
+				ACA8744125052ADC00DF1CA4 /* StartViewController.swift */,
 				ACA8741124F1108000DF1CA4 /* Assets.xcassets */,
 				ACA8741324F1108000DF1CA4 /* LaunchScreen.storyboard */,
 				ACA8741624F1108000DF1CA4 /* Info.plist */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACA8740D24F1107F00DF1CA4 /* ViewController.swift in Sources */,
+				ACA8740D24F1107F00DF1CA4 /* ColorChangerViewController.swift in Sources */,
+				ACA8744225052ADC00DF1CA4 /* StartViewController.swift in Sources */,
 				ACA8740924F1107F00DF1CA4 /* AppDelegate.swift in Sources */,
 				ACA8740B24F1107F00DF1CA4 /* SceneDelegate.swift in Sources */,
 			);
@@ -292,7 +296,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ArtemGolubev.homework-2-2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "homework 2.2";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ArtemGolubev.homework-2-2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "homework 2.2";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
